@@ -2,3 +2,10 @@ main > ul {
   display: flex;
   gap: 20px;
 }
+
+
+ /* login */
+h1 img {
+  width: 129px;
+  height: 20px;
+}
