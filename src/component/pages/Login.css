@@ -1,3 +1,55 @@
-h2{
-  color: #ccc;
+/* login */
+
+body{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 img {
+  width: 129px;
+  height: 20px;
+}
+.input-box{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input-box input{
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  height: 40px;
+  padding: 0 20px;
+  color: #ddd;
+}
+.input-box input::placeholder{
+  color: #333333;
+}
+.input-box button{
+  background-color: #000;
+  opacity: 12%;
+  color: #fff;
+  border-radius: 8px;
+  height: 40px;
+  border: 0;
+  cursor: pointer;
+}
+.find-join{
+  display: flex;
+  padding: 10px 150px;
+}
+.find-join a:nth-child(2){
+  border-left: 1px solid #999;
+  padding: 0 20px;
+}
+
+.find-join a{
+  font-size: 1.2rem;
+  color: #999999;
+}
+.join a{
+  color: #999999;
+  text-decoration: underline;
 }
