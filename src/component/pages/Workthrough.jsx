@@ -18,8 +18,8 @@ const Workthrough =()=> {
    
   return(
     <>
-      <div className="wrap">
-        <button type="button">건너뛰기</button>
+      <div id="wrap">
+        <button type="button" className='top'>건너뛰기</button>
 
         <Swiper navigation={true} modules={[Pagination]} className="mySwiper">
           <SwiperSlide>
@@ -39,7 +39,7 @@ const Workthrough =()=> {
           </SwiperSlide>
         </Swiper>
 
-        <button type="button">다음</button>
+        <button type="button" className=''>다음</button>
       </div>
     </>
   )
