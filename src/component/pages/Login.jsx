@@ -1,4 +1,5 @@
 const Login =()=> {
+  
   return(
     <>
       <div className='wrap'>
@@ -9,15 +10,19 @@ const Login =()=> {
             <legend>회원 로그인</legend>
 
             <div className="input-box">
-              <input type="text" placeholder='아이디입력' />
-              <input type="password" placeholder='비밀번호입력'/>
+              아이디<input type="text" placeholder='' />
+              비밀번호<input type="password" placeholder=''/>
               <button type='submit'>로그인</button>
             </div>{/* .input-box */}
 
             <div className="find-join">
+              <a href="#">아이디 찾기</a>
               <a href="#">비밀번호 찾기</a>
-              <a href="#">회원가입</a>
             </div>{/* .find-join */}
+
+            <div className="join">
+              <a href="#">회원가입</a>
+            </div>{/* .-join */}
 
           </fieldset>
         </form>
