@@ -1,3 +1,4 @@
+import './Workthrough.css';
 import Workthrough_01 from '../../assets/workthrough/workthrough_01.png';
 import Workthrough_02 from '../../assets/workthrough/workthrough_02.png';
 import Workthrough_03 from '../../assets/workthrough/workthrough_03.png';
