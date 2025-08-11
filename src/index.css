@@ -8,6 +8,11 @@ html{
   margin: 0; padding: 0;
   box-sizing: border-box;
 }
+#wrap{
+  min-width: 320px;
+  max-width: 720px;
+  margin: 0 auto;
+}
 body{
   font-family: "Noto Sans", sans-serif;
   font-size: 1.4rem; line-height: 1.35; color: #000;
